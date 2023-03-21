@@ -31,6 +31,12 @@ namespace zad1
             int[] s1code = new int[length];
             int[] s2code = new int[length];
 
+            for (int i = 0; i < length; i++)
+            {
+                s1code[i] = 1;
+                s2code[i] = 1;
+            }
+
             for (int i = 0; i < str1.Length; i++)
             {
                 s1code[i] = (int) s1chars[i];
